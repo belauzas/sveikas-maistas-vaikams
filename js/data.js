@@ -16,7 +16,8 @@ let recipes = [
     //         ],
     //         optional: [
     //             ''
-    //         ]
+    //         ],
+    //         list: []
     //     },
     //     process: [
     //         ''
@@ -40,8 +41,10 @@ let recipes = [
             ],
             optional: [
                 'Jei reikia sočiau įdedame bulvės'
-            ]
+            ],
+            list: ['cukinija', 'žiedinis kopūstas']
         },
+
         process: [
             'Nulupame cukiniją ir supjaustome nedideliais gabalėliais ir paverdame apie 8 min, kol suminkštės',
             'Žiedinius kopūstus paverdame apie 10-12 minučių, kol suminkštės',
@@ -68,7 +71,8 @@ let recipes = [
                 '300 ml pilno grūdo speltos miltų',
                 '1 a.š. maltų meduolių prieskonių. Galite pasidaryti jų mišinį patys iš maltų gvazdikėlių, imbierų, žvaigždinio anyžiaus, kardamono bei cinamono)',
                 '2 a.š. kepimo miltelių'
-            ]
+            ],
+            list: ['sveistas', 'agavų sirupas', 'nerafinuotas cukrus', 'avižos', 'augalinis aliejus', 'karvės pienas', 'kiaušiniai', 'razinos', 'pilno grūdo speltos miltai', 'maltų meduolių prieskoniai', 'gvazdikėlis, imbieras', 'žvaigždiniS anyžius', 'kardamonas', 'cinamonas', 'kepimo milteliai']
         },
         process: [
             'Sviestą ištirpiname puode ir nukeliame nuo viryklės',
@@ -95,7 +99,8 @@ let recipes = [
                 '3 šaukštai kukurūzų miltų',
                 '40 g tarkuoto kietojo sūrio',
                 'žiupsnelis druskos'
-            ]
+            ],
+            list: ['varškė', 'cukinija', 'kiaušinis', 'kukurūzų miltai', 'kietasis sūris', 'druska']
         },
         process: [
             'Sutarkuokite burokine tarka cukiniją, pabarstykite žiupsneliu druskos ir palikite stovėti',
@@ -123,7 +128,8 @@ let recipes = [
                 '25 g razinų',
                 '¼ cinamono lazdelės',
                 '¼ a.š. malto cinamono'
-            ]
+            ],
+            list: ['obuolys', 'citrina', 'razinos', 'cinamono lazdelės', 'cinamonas']
         },
         process: [
             'Sudėkite visas sudėtines dalis į nereaktyvaus (nelimpančio) pavirčiaus puodą',
@@ -151,7 +157,8 @@ let recipes = [
                 'Morka',
                 'Pomidoras',
                 'Lešiai'
-            ]
+            ],
+            list: ['jautiena', 'bulvė', 'morka', 'pomidoras', 'lešiai']
         },
         process: [
             'Lešius užmirkiau iš vakaro ir ryte išviriau atskirai',
@@ -171,11 +178,12 @@ let recipes = [
         },
         ingredients: {
             main: [
-                'Šparaginės pupelėss'
+                'Šparaginės pupelės'
             ],
             optional: [
                 'Dėl sotumo galima pridėti bulvę, morką ar abi šias daržoves'
-            ]
+            ],
+            list: ['šparaginės pupelės']
         },
         process: [
             'Nukerpame pupelių galus ir išimame pupeles iš ankšties',
@@ -202,7 +210,8 @@ let recipes = [
                 '1 mažas lauro lapas',
                 '200 ml namie gamintas daržovių sultinio ar vandens',
                 'Šiek tiek lydyto sviesto'
-            ]
+            ],
+            list: ['morka', 'lešiai', 'bulvė', 'lauro lapas', 'daržovių sultinys', 'vanduo', 'lydytas sviestas']
         },
         process: [
             'Nulupame morką ir bulves bei supjaustome nedideliais gabalėliais',
@@ -223,7 +232,8 @@ let recipes = [
             main: [
                 'saujelė aviečių',
                 '0,5 banano'
-            ]
+            ],
+            list: ['avietės', 'bananas', 'kriaušė', 'obuolys', 'persikas', 'slyva']
         },
         process: [
             'Avietes kruopščiai nuplaukite tekančiu vandeniu ir nuplikykite verdančiu vandeniu',
@@ -246,7 +256,8 @@ let recipes = [
                 '1 bananas',
                 '2 kiaušiniai',
                 'keli šaukšteliai aliejaus (pvz.: extra virgin)'
-            ]
+            ],
+            list: ['bananas', 'kiaušinis', 'aliejus']
         },
         process: [
             'Bananą sutrinti',
@@ -273,7 +284,8 @@ let recipes = [
                 '115 g menkės file (be odos ir kaulų)',
                 '20 g nesūdyto sviesto',
                 'Pusė valgomojo šaukšto smulkintų petražolių'
-            ]
+            ],
+            list: ['pankolis', 'žuvies sultinys', 'menkė', 'nesūdytas sviestas', 'petražolės']
         },
         process: [
             'Pankolio skilteles sudėkite į verdantį vandenį ir virkite 8-10 min arba kol suminkštės',
@@ -302,7 +314,8 @@ let recipes = [
         ingredients: {
             main: [
                 'Šviežios sunokusios braškės',
-            ]
+            ],
+            list: ['braškės']
         },
         process: [
             'Nuskiname penkių-šešių sunokusių braškių kotelius ir jas sudedame į maisto smulkintuvą',
