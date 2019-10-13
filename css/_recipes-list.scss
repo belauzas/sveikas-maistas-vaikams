@@ -18,6 +18,7 @@
         > img {
             display: inline-block;
             width: 100%;
+            min-height: 180px;
             max-height: 240px;
             object-fit: cover;
             cursor: pointer;
