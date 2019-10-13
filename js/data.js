@@ -317,4 +317,4 @@ let recipes = [
 ];
 
 
-recipes = [...recipes, ...recipes, ...recipes, ...recipes, ...recipes, ...recipes]
+recipes = [...recipes, ...recipes, ...recipes]
